@@ -56,7 +56,7 @@ const Cart = () => {
 
                 <div className="absolute bottom-2 w-auto ml-2 bg-black text-white rounded-md shadow-xl pt-2">
                     <h3 className="ml-2">Items: {item} </h3>
-                    <h3 className="ml-2">Total Amount: {subtotal}</h3>
+                    <h3 className="ml-2">Total Amount: $ {subtotal}</h3>
 
                     <button onClick={()=>navigate('/success')} className="bg-purple-700 rounded-md py-2 px-5 mt-2 text-white hover:bg-purple-800 w-[90vw] lg:w-[18vw] font-bold ">Checkout</button>
                 </div>

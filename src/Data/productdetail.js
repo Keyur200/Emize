@@ -34,7 +34,7 @@ const Productdetail =
     {
         id:55,
         Title:"iPhone 14 Pro Max",
-        Cat: 'Tablet',
+        Cat: 'Phone',
         Price: '723',
         Img: './img/iphone14-pro-max.webp'
     },
